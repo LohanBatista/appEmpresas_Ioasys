@@ -12,6 +12,12 @@ Pelo Iphone 11 simulator - XCODE
 ### NPM ou YARN ? ###
 Sinceramente prefiro o uso do yarn, porém, fica a cargo de quem testar ;)
 
+### Como executar ? ###
+na pasta principal, instale os modulos com yarn install.
+depois em seu terminal digite: cd ios, pod install e cd ../
+ainda no terminal execute: npx react-native run-ios
+
+
 ### Sobre ###
 Desenvolvi este projeto usando como base, componentes que eu já havia criado para outros projetos de minha autoria. Então terão algumas lib's de fora como "react-native-image-crop-picker" - exemplo -. Qualquer dúvida para rodar o APP estou disponível para contato no seguinte e-mail e whatsapp: 
 
