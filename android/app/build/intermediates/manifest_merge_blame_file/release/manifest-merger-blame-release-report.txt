@@ -1,0 +1,575 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.br.villelafranqueado"
+4    android:versionCode="14"
+5    android:versionName="2.4.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:8:5-67
+11-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:8:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:9:5-81
+12-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:10:5-79
+13-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:10:22-76
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:11:5-65
+14-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:11:22-62
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:12:5-66
+15-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:12:22-63
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:14:5-80
+16-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:14:22-78
+17
+18    <uses-feature
+18-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+19        android:name="android.hardware.camera"
+19-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+20        android:required="false" />
+20-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+21    <uses-feature
+21-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+23        android:required="false" />
+23-->[:react-native-camera] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+24
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:react-native-firebase_analytics] /Users/user/Documents/Apps/villela-partner/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-79
+25-->[:react-native-firebase_analytics] /Users/user/Documents/Apps/villela-partner/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-76
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[:react-native-firebase_analytics] /Users/user/Documents/Apps/villela-partner/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-68
+26-->[:react-native-firebase_analytics] /Users/user/Documents/Apps/villela-partner/node_modules/@react-native-firebase/analytics/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-65
+27
+28    <queries>
+28-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-14:15
+29        <intent>
+29-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:9-13:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-73
+30-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:21-70
+31        </intent>
+32    </queries>
+33
+34    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+34-->[:react-native-touch-id] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-touch-id/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-74
+34-->[:react-native-touch-id] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-touch-id/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-71
+35    <permission
+35-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:7:5-9:47
+36        android:name="com.br.villelafranqueado.permission.C2D_MESSAGE"
+36-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:8:9-63
+37        android:protectionLevel="signature" />
+37-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:9:9-44
+38
+39    <uses-permission android:name="com.br.villelafranqueado.permission.C2D_MESSAGE" />
+39-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
+39-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:22-76
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:5-82
+40-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:22-79
+41    <!--
+42 Use to restore notifications the user hasn't interacted with.
+43         They could be missed notifications if the user reboots their device if this isn't in place.
+44    -->
+45    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+45-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:29:5-81
+45-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:29:22-78
+46    <!-- Samsung -->
+47    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+47-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:5-86
+47-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:22-83
+48    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+48-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:5-87
+48-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:22-84
+49    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+49-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:5-81
+49-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:22-78
+50    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+50-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:5-83
+50-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:22-80
+51    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+51-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:5-88
+51-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:22-85
+52    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+52-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:5-92
+52-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:22-89
+53    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+53-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:5-84
+53-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:22-81
+54    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+54-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:5-83
+54-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:22-80
+55    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+55-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:5-91
+55-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:22-88
+56    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+56-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:5-92
+56-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:22-89
+57    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+57-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:5-93
+57-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:22-90
+58    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+58-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:5-73
+58-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:22-70
+59    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+59-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:5-82
+59-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:22-79
+60    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+60-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:5-83
+60-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:22-80
+61    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+61-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:5-88
+61-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:22-85
+62    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+62-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:5-89
+62-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:22-86
+63
+64    <uses-feature
+64-->[com.google.android.gms:play-services-maps:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/03bf35f9923df84b5c2877b75f0397d7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+65        android:glEsVersion="0x00020000"
+65-->[com.google.android.gms:play-services-maps:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/03bf35f9923df84b5c2877b75f0397d7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+66        android:required="true" />
+66-->[com.google.android.gms:play-services-maps:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/03bf35f9923df84b5c2877b75f0397d7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+67
+68    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+68-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:5-110
+68-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:22-107
+69
+70    <application
+70-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:16:5-41:19
+71        android:name="com.villelapartner.MainApplication"
+71-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:17:7-38
+72        android:allowBackup="false"
+72-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:22:7-34
+73        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+73-->[androidx.core:core:1.1.0] /Users/user/.gradle/caches/transforms-2/files-2.1/33905501977a28c0fc6a2935607f48a6/core-1.1.0/AndroidManifest.xml:24:18-86
+74        android:icon="@mipmap/ic_launcher"
+74-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:20:7-41
+75        android:label="@string/app_name"
+75-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:19:7-39
+76        android:roundIcon="@mipmap/ic_launcher_round"
+76-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:21:7-52
+77        android:theme="@style/AppTheme" >
+77-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:23:7-38
+78        <meta-data
+78-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:24:7-26:66
+79            android:name="com.google.android.geo.API_KEY"
+79-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:25:9-54
+80            android:value="AIzaSyA9DBHkQPAoPVVb9hn4U1eQCh9qdlQNKHE" />
+80-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:26:9-64
+81
+82        <activity
+82-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:27:7-37:18
+83            android:name="com.villelapartner.MainActivity"
+83-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:28:9-37
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+84-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:31:9-79
+85            android:label="@string/app_name"
+85-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:29:9-41
+86            android:launchMode="singleTask"
+86-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:30:9-40
+87            android:windowSoftInputMode="adjustPan" >
+87-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:32:9-48
+88            <intent-filter>
+88-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:33:9-36:25
+89                <action android:name="android.intent.action.MAIN" />
+89-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:34:13-65
+89-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:34:21-62
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:35:13-73
+91-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:35:23-70
+92            </intent-filter>
+93        </activity>
+94        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+94-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:38:7-84
+94-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:38:17-81
+95
+96        <uses-library
+96-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:39:7-85
+97            android:name="org.apache.http.legacy"
+97-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:39:21-58
+98            android:required="false" />
+98-->/Users/user/Documents/Apps/villela-partner/android/app/src/main/AndroidManifest.xml:39:59-83
+99
+100        <receiver
+100-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-21:20
+101            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+101-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-70
+102            android:enabled="true"
+102-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-35
+103            android:exported="true" >
+103-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-36
+104            <intent-filter>
+104-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-20:29
+105                <action android:name="com.android.vending.INSTALL_REFERRER" />
+105-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-79
+105-->[:react-native-device-info] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:25-76
+106            </intent-filter>
+107        </receiver>
+108
+109        <provider
+109-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-27:20
+110            android:name="androidx.core.content.FileProvider"
+110-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-62
+111            android:authorities="com.br.villelafranqueado.provider"
+111-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-60
+112            android:exported="false"
+112-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-37
+113            android:grantUriPermissions="true" >
+113-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-47
+114            <meta-data
+114-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+116                android:resource="@xml/provider_paths" />
+116-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+117        </provider>
+118
+119        <activity
+119-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:9-31:72
+120            android:name="com.yalantis.ucrop.UCropActivity"
+120-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-60
+121            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+121-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-69
+122
+123        <provider
+123-->[:react-native-image-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+124            android:name="com.imagepicker.FileProvider"
+124-->[:react-native-image-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+125            android:authorities="com.br.villelafranqueado.provider"
+125-->[:react-native-image-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+126            android:exported="false"
+126-->[:react-native-image-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+127            android:grantUriPermissions="true" >
+127-->[:react-native-image-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+128            <meta-data
+128-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+129                android:name="android.support.FILE_PROVIDER_PATHS"
+129-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+130                android:resource="@xml/provider_paths" />
+130-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+131        </provider>
+132        <provider
+132-->[:react-native-webview] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+133            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+133-->[:react-native-webview] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+134            android:authorities="com.br.villelafranqueado.fileprovider"
+134-->[:react-native-webview] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+135            android:exported="false"
+135-->[:react-native-webview] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+136            android:grantUriPermissions="true" >
+136-->[:react-native-webview] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+137            <meta-data
+137-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+138                android:name="android.support.FILE_PROVIDER_PATHS"
+138-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+139                android:resource="@xml/file_provider_paths" />
+139-->[:react-native-image-crop-picker] /Users/user/Documents/Apps/villela-partner/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+140        </provider>
+141
+142        <meta-data
+142-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:49:9-51:51
+143            android:name="onesignal_app_id"
+143-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:50:13-44
+144            android:value="" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+144-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:51:13-48
+145        <meta-data
+145-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:53:9-55:70
+146            android:name="onesignal_google_project_number"
+146-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:54:13-59
+147            android:value="str:REMOTE" />
+147-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:55:13-67
+148
+149        <receiver
+149-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:57:9-67:20
+150            android:name="com.onesignal.GcmBroadcastReceiver"
+150-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:58:13-62
+151            android:permission="com.google.android.c2dm.permission.SEND" >
+151-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:59:13-73
+152
+153            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+154            <intent-filter android:priority="999" >
+154-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
+154-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
+155                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+155-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
+155-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
+156
+157                <category android:name="com.br.villelafranqueado" />
+157-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
+157-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
+158            </intent-filter>
+159        </receiver>
+160        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+160-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:9-77
+160-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:19-74
+161
+162        <service
+162-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:70:9-76:19
+163            android:name="com.onesignal.HmsMessageServiceOneSignal"
+163-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:71:13-68
+164            android:exported="false" >
+164-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:72:13-37
+165            <intent-filter>
+165-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:73:13-75:29
+166                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+166-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:17-81
+166-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:25-78
+167            </intent-filter>
+168        </service>
+169
+170        <activity
+170-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:78:9-84:20
+171            android:name="com.onesignal.NotificationOpenedActivityHMS"
+171-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:79:13-71
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+172-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:80:13-72
+173            <intent-filter>
+173-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:81:13-83:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:82:17-69
+174-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:82:25-66
+175            </intent-filter>
+176        </activity>
+177
+178        <service android:name="com.onesignal.GcmIntentService" />
+178-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:9-66
+178-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:18-63
+179        <service
+179-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:87:9-89:72
+180            android:name="com.onesignal.GcmIntentJobService"
+180-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:88:13-61
+181            android:permission="android.permission.BIND_JOB_SERVICE" />
+181-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:89:13-69
+182        <service
+182-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:90:9-92:72
+183            android:name="com.onesignal.RestoreJobService"
+183-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:91:13-59
+184            android:permission="android.permission.BIND_JOB_SERVICE" />
+184-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:92:13-69
+185        <service
+185-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:93:9-95:72
+186            android:name="com.onesignal.RestoreKickoffJobService"
+186-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:94:13-66
+187            android:permission="android.permission.BIND_JOB_SERVICE" />
+187-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:95:13-69
+188        <service
+188-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:96:9-98:43
+189            android:name="com.onesignal.SyncService"
+189-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:97:13-53
+190            android:stopWithTask="true" />
+190-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:98:13-40
+191        <service
+191-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:99:9-101:72
+192            android:name="com.onesignal.SyncJobService"
+192-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:100:13-56
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:101:13-69
+194
+195        <activity
+195-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:103:9-105:75
+196            android:name="com.onesignal.PermissionsActivity"
+196-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:104:13-61
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:105:13-72
+198
+199        <service android:name="com.onesignal.NotificationRestoreService" />
+199-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:9-76
+199-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:18-73
+200
+201        <receiver android:name="com.onesignal.BootUpReceiver" >
+201-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:9-114:20
+201-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:19-62
+202            <intent-filter>
+202-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:110:13-113:29
+203                <action android:name="android.intent.action.BOOT_COMPLETED" />
+203-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:111:17-79
+203-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:111:25-76
+204                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+204-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:17-82
+204-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:25-79
+205            </intent-filter>
+206        </receiver>
+207        <receiver android:name="com.onesignal.UpgradeReceiver" >
+207-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:9-119:20
+207-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:19-63
+208            <intent-filter>
+208-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:116:13-118:29
+209                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+209-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:17-84
+209-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:25-81
+210            </intent-filter>
+211        </receiver>
+212        <!--
+213             FirebaseMessagingService performs security checks at runtime,
+214             but set to not exported to explicitly avoid allowing another app to call it.
+215        -->
+216        <service
+216-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:28:9-35:19
+217            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+217-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:29:13-82
+218            android:directBootAware="true"
+218-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:30:13-43
+219            android:exported="false" >
+219-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:31:13-37
+220            <intent-filter android:priority="-500" >
+220-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:32:13-34:29
+220-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:32:28-51
+221                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+221-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:33:17-78
+221-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:33:25-75
+222            </intent-filter>
+223        </service>
+224        <service
+224-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:36:9-42:19
+225            android:name="com.google.firebase.components.ComponentDiscoveryService"
+225-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:37:13-84
+226            android:directBootAware="true"
+226-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+227            android:exported="false" >
+227-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:38:13-37
+228            <meta-data
+228-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:39:13-41:85
+229                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+229-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:40:17-119
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->[com.google.firebase:firebase-messaging:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/07e1c0d1e23374833ef36c85d0507da8/jetified-firebase-messaging-20.2.1/AndroidManifest.xml:41:17-82
+231            <meta-data
+231-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/3e3483f32e00385371ef23469f5ac9cf/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:30:13-32:85
+232                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+232-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/3e3483f32e00385371ef23469f5ac9cf/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:31:17-139
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->[com.google.android.gms:play-services-measurement-api:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/3e3483f32e00385371ef23469f5ac9cf/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:32:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:32:13-34:85
+235                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+235-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:33:17-96
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:34:17-82
+237            <meta-data
+237-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/user/.gradle/caches/transforms-2/files-2.1/1a5b5db7babccb727b55566b3d65e428/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+238                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+238-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/user/.gradle/caches/transforms-2/files-2.1/1a5b5db7babccb727b55566b3d65e428/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/user/.gradle/caches/transforms-2/files-2.1/1a5b5db7babccb727b55566b3d65e428/jetified-firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-installations:16.3.2] /Users/user/.gradle/caches/transforms-2/files-2.1/184dfe846ffee265dfd9d84f51c2bbad/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+241                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+241-->[com.google.firebase:firebase-installations:16.3.2] /Users/user/.gradle/caches/transforms-2/files-2.1/184dfe846ffee265dfd9d84f51c2bbad/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-installations:16.3.2] /Users/user/.gradle/caches/transforms-2/files-2.1/184dfe846ffee265dfd9d84f51c2bbad/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+243        </service>
+244
+245        <receiver
+245-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:37:9-44:20
+246            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+246-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:38:13-78
+247            android:exported="true"
+247-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:39:13-36
+248            android:permission="com.google.android.c2dm.permission.SEND" >
+248-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:40:13-73
+249            <intent-filter>
+249-->[com.google.firebase:firebase-iid:20.2.1] /Users/user/.gradle/caches/transforms-2/files-2.1/0e8247f4799890f6c3c4d128db31c358/jetified-firebase-iid-20.2.1/AndroidManifest.xml:41:13-43:29
+250                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+250-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
+250-->[com.onesignal:OneSignal:3.15.1] /Users/user/.gradle/caches/transforms-2/files-2.1/801df3836cac9c0d2fc46827baa1b870/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
+251            </intent-filter>
+252        </receiver>
+253
+254        <activity
+254-->[com.google.android.gms:play-services-base:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+255            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+255-->[com.google.android.gms:play-services-base:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-base:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.google.android.gms:play-services-base:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+258
+259        <receiver
+259-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:29:9-33:20
+260            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+260-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:30:13-85
+261            android:enabled="true"
+261-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:31:13-35
+262            android:exported="false" >
+262-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:32:13-37
+263        </receiver>
+264
+265        <service
+265-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:35:9-38:40
+266            android:name="com.google.android.gms.measurement.AppMeasurementService"
+266-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:36:13-84
+267            android:enabled="true"
+267-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:37:13-35
+268            android:exported="false" />
+268-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:38:13-37
+269        <service
+269-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:39:9-43:72
+270            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+270-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:40:13-87
+271            android:enabled="true"
+271-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:41:13-35
+272            android:exported="false"
+272-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:42:13-37
+273            android:permission="android.permission.BIND_JOB_SERVICE" />
+273-->[com.google.android.gms:play-services-measurement:17.4.3] /Users/user/.gradle/caches/transforms-2/files-2.1/33aa40fef179fe0fd1596470441eaa45/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:43:13-69
+274
+275        <provider
+275-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+276            android:name="com.google.firebase.provider.FirebaseInitProvider"
+276-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+277            android:authorities="com.br.villelafranqueado.firebaseinitprovider"
+277-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+278            android:exported="false"
+278-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+279            android:initOrder="100" />
+279-->[com.google.firebase:firebase-common:19.3.0] /Users/user/.gradle/caches/transforms-2/files-2.1/f1699853aa7320f36e92465950d9b870/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+280
+281        <meta-data
+281-->[com.google.android.gms:play-services-basement:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+282            android:name="com.google.android.gms.version"
+282-->[com.google.android.gms:play-services-basement:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+283            android:value="@integer/google_play_services_version" />
+283-->[com.google.android.gms:play-services-basement:17.0.0] /Users/user/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+284
+285        <service
+285-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+286            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+286-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+287            android:exported="false" >
+287-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+288            <meta-data
+288-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+289                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+289-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+290                android:value="cct" />
+290-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/8326f31b0b93cb492240268377ec5ee5/jetified-transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+291        </service>
+292        <service
+292-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+293            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+293-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+294            android:exported="false"
+294-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+295            android:permission="android.permission.BIND_JOB_SERVICE" >
+295-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+296        </service>
+297
+298        <receiver
+298-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+299            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+299-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+300            android:exported="false" />
+300-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/user/.gradle/caches/transforms-2/files-2.1/57bfb8fdd9d2e39830a2749622d02924/jetified-transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+301    </application>
+302
+303</manifest> <!-- android:name="android.support.multidex.MultiDexApplication" -->

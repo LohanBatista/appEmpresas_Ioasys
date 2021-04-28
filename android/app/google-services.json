@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "355951563797",
+    "firebase_url": "https://villela-partner-prd.firebaseio.com",
+    "project_id": "villela-partner-prd",
+    "storage_bucket": "villela-partner-prd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355951563797:android:cf1c629c6a390fd86e6a1c",
+        "android_client_info": {
+          "package_name": "com.br.villelafranqueado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355951563797-e69rlvor40u3f32quvajm6lhktt52lop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpTVNmKdJWweEdHI4UKxqFBuItxzdawSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355951563797-e69rlvor40u3f32quvajm6lhktt52lop.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355951563797-9m9rfiujhm9plujvjbt3ia8h4rbstrqp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "asdasdad"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355951563797:android:be5cf45ea827c3fb6e6a1c",
+        "android_client_info": {
+          "package_name": "com.br.villelapartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355951563797-e69rlvor40u3f32quvajm6lhktt52lop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpTVNmKdJWweEdHI4UKxqFBuItxzdawSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355951563797-e69rlvor40u3f32quvajm6lhktt52lop.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "355951563797-9m9rfiujhm9plujvjbt3ia8h4rbstrqp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "asdasdad"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

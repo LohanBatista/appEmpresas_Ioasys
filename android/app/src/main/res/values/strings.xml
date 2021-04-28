@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">villelaPartner</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">zD5DvHLMkBrYTBqqUDEtvCGMob_DTpBWWCz2H</string>
+</resources>

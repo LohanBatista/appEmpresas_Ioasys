@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">355951563797-e69rlvor40u3f32quvajm6lhktt52lop.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://villela-partner-prd.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">355951563797</string>
+    <string name="google_api_key" translatable="false">AIzaSyCpTVNmKdJWweEdHI4UKxqFBuItxzdawSQ</string>
+    <string name="google_app_id" translatable="false">1:355951563797:android:cf1c629c6a390fd86e6a1c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCpTVNmKdJWweEdHI4UKxqFBuItxzdawSQ</string>
+    <string name="google_storage_bucket" translatable="false">villela-partner-prd.appspot.com</string>
+    <string name="project_id" translatable="false">villela-partner-prd</string>
+</resources>

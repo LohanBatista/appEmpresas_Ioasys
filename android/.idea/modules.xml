@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/villelaPartner.iml" filepath="$PROJECT_DIR$/.idea/modules/villelaPartner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/villelaPartner.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/villelaPartner.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-666943283/villelaPartner.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/-666943283/villelaPartner.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1977647780/villelaPartner.react-native-code-push.iml" filepath="$PROJECT_DIR$/.idea/modules/1977647780/villelaPartner.react-native-code-push.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/358230812/villelaPartner.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/358230812/villelaPartner.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1472736632/villelaPartner.react-native-community_geolocation.iml" filepath="$PROJECT_DIR$/.idea/modules/1472736632/villelaPartner.react-native-community_geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/539992345/villelaPartner.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/539992345/villelaPartner.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1904272931/villelaPartner.react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1904272931/villelaPartner.react-native-device-info.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1262412440/villelaPartner.react-native-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1262412440/villelaPartner.react-native-document-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/32456870/villelaPartner.react-native-firebase_analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/32456870/villelaPartner.react-native-firebase_analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1461181375/villelaPartner.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1461181375/villelaPartner.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1936835106/villelaPartner.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1936835106/villelaPartner.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/337694481/villelaPartner.react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/337694481/villelaPartner.react-native-image-crop-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1723450904/villelaPartner.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1723450904/villelaPartner.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1245161371/villelaPartner.react-native-launch-navigator.iml" filepath="$PROJECT_DIR$/.idea/modules/-1245161371/villelaPartner.react-native-launch-navigator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1587496629/villelaPartner.react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/1587496629/villelaPartner.react-native-maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-252929626/villelaPartner.react-native-onesignal.iml" filepath="$PROJECT_DIR$/.idea/modules/-252929626/villelaPartner.react-native-onesignal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1418268260/villelaPartner.react-native-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/-1418268260/villelaPartner.react-native-permissions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1214075522/villelaPartner.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-1214075522/villelaPartner.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-926329145/villelaPartner.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-926329145/villelaPartner.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1969867873/villelaPartner.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1969867873/villelaPartner.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/352669610/villelaPartner.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/352669610/villelaPartner.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1508699268/villelaPartner.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1508699268/villelaPartner.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/797925905/villelaPartner.react-native-touch-id.iml" filepath="$PROJECT_DIR$/.idea/modules/797925905/villelaPartner.react-native-touch-id.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1584042001/villelaPartner.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1584042001/villelaPartner.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>
