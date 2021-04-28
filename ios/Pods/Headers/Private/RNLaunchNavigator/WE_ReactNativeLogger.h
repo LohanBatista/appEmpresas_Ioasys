@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-launch-navigator/ios/RNLaunchNavigator/WE_ReactNativeLogger.h

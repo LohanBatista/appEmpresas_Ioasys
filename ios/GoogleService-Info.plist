@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>355951563797-ii0d0psmank1dmsm75nsm5d5dnvdjt11.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.355951563797-ii0d0psmank1dmsm75nsm5d5dnvdjt11</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAJx0Lfzj4WHskdJh0d4k-MG7tLQothooE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>355951563797</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.villelafranqueado</string>
+	<key>PROJECT_ID</key>
+	<string>villela-partner-prd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>villela-partner-prd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:355951563797:ios:3fb1a1738c5e652b6e6a1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://villela-partner-prd.firebaseio.com</string>
+</dict>
+</plist>
